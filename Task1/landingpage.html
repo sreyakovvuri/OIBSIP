@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background-color: green;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    .column {
+      float: left;
+      width: 50%;
+      padding: 20px;
+    }
+
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Welcome to Our Landing Page</h1>
+    </header>
+
+    <section>
+      <div class="column">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae faucibus felis. Phasellus et metus a nulla consequat tincidunt nec vel sem.</p>
+      </div>
+      <div class="column">
+        <h2>Services</h2>
+        <ul>
+          <li>Web Design</li>
+          <li>Graphic Design</li>
+          <li>SEO Optimization</li>
+        </ul>
+      </div>
+      <div class="clearfix"></div>
+    </section>
+
+    <section>
+      <div class="column">
+        <h2>Contact Us</h2>
+        <p>Email: info@example.com</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+      <div class="column">
+        <h2>Subscribe</h2>
+        <p>Subscribe to our newsletter for updates.</p>
+        <form>
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div class="clearfix"></div>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Your Company. All rights reserved.</p>
+  </footer>
+</body>
+</html>
